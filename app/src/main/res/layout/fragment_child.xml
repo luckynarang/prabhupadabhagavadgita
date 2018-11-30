@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#8c8a8c"
+    android:id="@+id/fgChildId"
+
+    tools:context="com.example.krishna.prabhupadabhagavadgita.ChildFragment">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/corner">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#092348"
+        android:layout_margin="3dp"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:titleTextColor="#ffffff"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+        </android.support.v7.widget.Toolbar>
+        <ScrollView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollbar1"
+            >
+        <TextView
+            style="@style/layoutText"
+            android:text=""
+            android:textSize="@dimen/translation"
+            android:textColor="@color/contentColor"
+            android:fontFamily="@font/droid_sans"
+            android:textStyle="normal"
+            android:id="@+id/tvParent"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginTop="20dp" />
+        </ScrollView>
+        <ScrollView
+            android:id="@+id/scrollbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            >
+        <TextView
+            style="@style/layoutText"
+            android:text=""
+            android:textSize="@dimen/shloka_size"
+            android:textAlignment="center"
+            android:fontFamily="@font/droid_sans"
+            android:lineSpacingMultiplier="1.2"
+            android:textStyle="bold"
+            android:scrollbars = "vertical"
+            android:textColor="@color/shlokaColor"
+            android:id="@+id/tvChild" />
+    </ScrollView>
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
+
+

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "48153683754",
+    "firebase_url": "https://prabhupadabhagavadgita.firebaseio.com",
+    "project_id": "prabhupadabhagavadgita",
+    "storage_bucket": "prabhupadabhagavadgita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48153683754:android:fa5f1a4b05d9b666",
+        "android_client_info": {
+          "package_name": "com.example.krishna.bhagvadgita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48153683754-ulei037vqp7vlp3gojuvpc5hqbdk285o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishna.bhagvadgita",
+            "certificate_hash": "0139b69f0039048dec592233dd3a39d89e3d58ae"
+          }
+        },
+        {
+          "client_id": "48153683754-g5sj2jvcabutshq3e8p3e30nedd6c96u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANjBedu7lkaapIUES_34pDBTYOaAsFDx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48153683754-g5sj2jvcabutshq3e8p3e30nedd6c96u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48153683754:android:c68061e1cf955246",
+        "android_client_info": {
+          "package_name": "com.example.krishna.prabhupadabhagavadgita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48153683754-su86qjfih02p8h7ietd2h54ddssudjad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishna.prabhupadabhagavadgita",
+            "certificate_hash": "0139b69f0039048dec592233dd3a39d89e3d58ae"
+          }
+        },
+        {
+          "client_id": "48153683754-g5sj2jvcabutshq3e8p3e30nedd6c96u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANjBedu7lkaapIUES_34pDBTYOaAsFDx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48153683754-g5sj2jvcabutshq3e8p3e30nedd6c96u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
