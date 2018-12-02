@@ -79,34 +79,34 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 119 && Integer.parseInt(fragment_no)<=161) {//chapter 3
-            sess.getToolBarInstance().setTitle("Chapter 3");
+            toolbar.setTitle("Chapter 3");
 
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-119+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 119 && frag_no <=161)
                     refd = database.child("Chapter 3").child("Karma Yoga").child("TEXT" + " " + actual_shloka_no);
 
             }
         }
         else if(Integer.parseInt(fragment_no) >= 162 && Integer.parseInt(fragment_no)<=203) { //chapter 4
-            sess.getToolBarInstance().setTitle("Chapter 4");
+            toolbar.setTitle("Chapter 4");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
                 int actual_shloka_no=frag_no-162+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 162 && frag_no <=203)
                     refd = database.child("Chapter 4").child("Transcendental Knowledge").child("TEXT" + " " + actual_shloka_no);
             }
         }
         else if(Integer.parseInt(fragment_no) >= 204 && Integer.parseInt(fragment_no)<=232) {//chapter 5 ends
-            sess.getToolBarInstance().setTitle("Chapter 5");
+            toolbar.setTitle("Chapter 5");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
                 int actual_shloka_no=frag_no-204+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 204 && frag_no <=210)
                     refd = database.child("Chapter 5").child("Karma-yoga – Action in Kṛṣṇa Consciousness").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==211)
@@ -121,12 +121,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 233 && Integer.parseInt(fragment_no)<=279  ) {//chapter 6 ends
-            sess.getToolBarInstance().setTitle("Chapter 6");
+            toolbar.setTitle("Chapter 6");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-233+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 233 && frag_no <=242)
                     refd = database.child("Chapter 6").child("Dhyāna-yoga").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==243)
@@ -145,48 +145,48 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 280 && Integer.parseInt(fragment_no)<=309) {//chapter 7 ends
-            sess.getToolBarInstance().setTitle("Chapter 7");
+            toolbar.setTitle("Chapter 7");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-280+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 280 && frag_no <=309)
                     refd = database.child("Chapter 7").child("Knowledge of the Absolute").child("TEXT" + " " + actual_shloka_no);
 
             }
         }
         else if(Integer.parseInt(fragment_no) >= 310 && Integer.parseInt(fragment_no)<=337) {//chapter 8 ends
-            sess.getToolBarInstance().setTitle("Chapter 8");
+            toolbar.setTitle("Chapter 8");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-310+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 310 && frag_no <=337)
                     refd = database.child("Chapter 8").child("Attaining the Supreme").child("TEXT" + " " + actual_shloka_no);
 
             }
         }
         else if(Integer.parseInt(fragment_no) >= 338 && Integer.parseInt(fragment_no)<=371) {//chapter 9 ends
-            sess.getToolBarInstance().setTitle("Chapter 9");
+            toolbar.setTitle("Chapter 9");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-338+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 338 && frag_no <=371)
                     refd = database.child("Chapter 9").child("The Most Conﬁdential Knowledge").child("TEXT" + " " + actual_shloka_no);
 
             }
         }
         else if(Integer.parseInt(fragment_no) >= 372 && Integer.parseInt(fragment_no)<=413) {//chapter 10 ends
-            sess.getToolBarInstance().setTitle("Chapter 10");
+            toolbar.setTitle("Chapter 10");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-372+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 372 && frag_no <=374)
                     refd = database.child("Chapter 10").child("The Opulence of the Absolute").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==375)
@@ -201,12 +201,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 414 && Integer.parseInt(fragment_no)<=468) {//chapter 11 ends
-            sess.getToolBarInstance().setTitle("Chapter 11");
+            toolbar.setTitle("Chapter 11");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-414+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 414 && frag_no <=422)
                     refd = database.child("Chapter 11").child("The Universal Form").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==423)
@@ -225,12 +225,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 469 && Integer.parseInt(fragment_no)<=488) {//chapter 12 ends
-            sess.getToolBarInstance().setTitle("Chapter 12");
+            toolbar.setTitle("Chapter 12");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-469+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 469 && frag_no <=470)
                     refd = database.child("Chapter 12").child("Devotional Service").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==471)
@@ -253,12 +253,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 489 && Integer.parseInt(fragment_no)<=523) {//chapter 13 ends
-            sess.getToolBarInstance().setTitle("Chapter 13");
+            toolbar.setTitle("Chapter 13");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-489+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 489 && frag_no <=489)
                     refd = database.child("Chapter 13").child("Nature, the Enjoyer and Consciousness").child("TEXT"+" "+actual_shloka_no+" - "+"2");
                 else if(frag_no>=490 && frag_no <=493)
@@ -275,12 +275,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 524 && Integer.parseInt(fragment_no)<=550) {//chapter 14 ends
-            sess.getToolBarInstance().setTitle("Chapter 14");
+            toolbar.setTitle("Chapter 14");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-524+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 524 && frag_no <=544)
                     refd = database.child("Chapter 14").child("The Three Modes of Material Nature").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==545)
@@ -292,12 +292,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 551 && Integer.parseInt(fragment_no)<=570) {//chapter 15 ends
-            sess.getToolBarInstance().setTitle("Chapter 15");
+            toolbar.setTitle("Chapter 15");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-551+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 551 && frag_no <=552)
                     refd = database.child("Chapter 15").child("The Yoga of the Supreme Person").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==553)
@@ -308,12 +308,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 571 && Integer.parseInt(fragment_no)<=594) {//chapter 16 ends
-            sess.getToolBarInstance().setTitle("Chapter 16");
+            toolbar.setTitle("Chapter 16");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-571+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 571 && frag_no <=571)
                     refd = database.child("Chapter 16").child("The Divine and Demoniac Natures").child("TEXT"+" "+actual_shloka_no+" - "+"3");
                 else if(frag_no>=573 && frag_no <=580)
@@ -330,12 +330,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 595 && Integer.parseInt(fragment_no)<=622) {//chapter 17 ends
-            sess.getToolBarInstance().setTitle("Chapter 17");
+            toolbar.setTitle("Chapter 17");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-595+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 595 && frag_no <=598)
                     refd = database.child("Chapter 17").child("The Divisions of Faith").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==599)
@@ -350,12 +350,12 @@ public class ChildFragment extends Fragment {
             }
         }
         else if(Integer.parseInt(fragment_no) >= 623 && Integer.parseInt(fragment_no)<=700) {//chapter 18 ends
-            sess.getToolBarInstance().setTitle("Chapter 18");
+            toolbar.setTitle("Chapter 18");
             if (database != null) {
                 int frag_no=Integer.parseInt(fragment_no);
 
                 int actual_shloka_no=frag_no-623+1;
-                sess.getToolBarInstance().setSubtitle("Shloka"+" "+actual_shloka_no);
+                toolbar.setSubtitle("Shloka"+" "+actual_shloka_no);
                 if (frag_no >= 623 && frag_no <=672)
                     refd = database.child("Chapter 18").child("Conclusion – The Perfection of Renunciation").child("TEXT" + " " + actual_shloka_no);
                 else if(frag_no==673)
